@@ -22,7 +22,7 @@ pod 'LearnPforTest'
 
 ## Author
 
-centerprime, Happy0990!@#
+centerprime
 
 ## License
 
