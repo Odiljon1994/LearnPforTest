@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0029EEA98DE6A9E750F4A0E9 /* Pods_LearnPforTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnPforTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BD34DE5A98995CEFC4E3DE5 /* Pods-LearnPforTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnPforTest_Example.debug.xcconfig"; path = "Target Support Files/Pods-LearnPforTest_Example/Pods-LearnPforTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		342A924DFAEBDBC7DFDEBD6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		342A924DFAEBDBC7DFDEBD6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LearnPforTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnPforTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +41,12 @@
 		607FACE51AFB9204008FA782 /* LearnPforTest_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnPforTest_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		C2F49847BFDBEE4AB1E7ACE2 /* LearnPforTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LearnPforTest.podspec; path = ../LearnPforTest.podspec; sourceTree = "<group>"; };
+		C2F49847BFDBEE4AB1E7ACE2 /* LearnPforTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LearnPforTest.podspec; path = ../LearnPforTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CBF01EAEC3583D59006DF1C5 /* Pods_LearnPforTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnPforTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D444A8EED6DD84DA61FB4B8C /* Pods-LearnPforTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnPforTest_Example.release.xcconfig"; path = "Target Support Files/Pods-LearnPforTest_Example/Pods-LearnPforTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D5FEE6E53FD6DA708F91098B /* Pods-LearnPforTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnPforTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-LearnPforTest_Tests/Pods-LearnPforTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E0DABAAD0E260D29229E406C /* Pods-LearnPforTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnPforTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LearnPforTest_Tests/Pods-LearnPforTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EDFDE630A321CEBCFAB43DAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EDFDE630A321CEBCFAB43DAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				E0DABAAD0E260D29229E406C /* Pods-LearnPforTest_Tests.debug.xcconfig */,
 				D5FEE6E53FD6DA708F91098B /* Pods-LearnPforTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

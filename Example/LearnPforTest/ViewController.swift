@@ -7,11 +7,16 @@
 //
 
 import UIKit
-
+import LearnPforTest
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        let log = LearnPforTesting()
+        print(log.calculate(a: 2))
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
