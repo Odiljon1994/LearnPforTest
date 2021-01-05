@@ -1,0 +1,16 @@
+PODS:
+  - LearnPforTest (0.1.0)
+
+DEPENDENCIES:
+  - LearnPforTest (from `../`)
+
+EXTERNAL SOURCES:
+  LearnPforTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LearnPforTest: 0506c31a240c65caa572d96550417aebd6ccdc9d
+
+PODFILE CHECKSUM: 7bb668dcb3e6755dec9432af47a48308b86c9c64
+
+COCOAPODS: 1.10.0

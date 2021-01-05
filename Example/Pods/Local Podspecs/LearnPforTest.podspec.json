@@ -1,0 +1,22 @@
+{
+  "name": "LearnPforTest",
+  "version": "0.1.0",
+  "summary": "A short description of LearnPforTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/centerprime/LearnPforTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "centerprime": "Happy0990!@#"
+  },
+  "source": {
+    "git": "https://github.com/centerprime/LearnPforTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LearnPforTest/Classes/**/*"
+}

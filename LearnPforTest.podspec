@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LearnPforTest'
   s.version          = '0.1.0'
-  s.summary          = 'This is shortly description about my new library'
+  s.summary          = 'This is shortly description about my new library. Welcome'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+"This is my very first library. Just use this to calculate your number. You are welcome."
                        DESC
 
   s.homepage         = 'https://github.com/Odiljon1994/LearnPforTest'
@@ -28,9 +28,15 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Odiljon1994/LearnPforTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'LearnPforTest/Classes/**/*'
+  s.ios.deployment_target = '13.0'
+  
+  s.source_files = 'Classes/**/*.swift'
+  
+  s.swift_version = '5.0'
+  
+  s.platforms = {
+      "ios": "13.0"
+  }
   
   # s.resource_bundles = {
   #   'LearnPforTest' => ['LearnPforTest/Assets/*.png']

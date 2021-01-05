@@ -1,0 +1,6 @@
+framework module LearnPforTest {
+  umbrella header "LearnPforTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
