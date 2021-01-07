@@ -1,6 +1,6 @@
 import XCTest
 import LearnPforTest
-
+import web3swift
 class Tests: XCTestCase {
     
     override func setUp() {
